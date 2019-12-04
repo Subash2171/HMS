@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".login"></activity>
+        <activity android:name=".gas"></activity>
+        <activity android:name=".temperature" />
+        <activity android:name=".water" />
+        <activity android:name=".light" />
+        <activity android:name=".dashboard" />
+        <activity android:name=".login" />
         <activity android:name=".activity_orientation" />
         <activity android:name=".ProgressActivity">
             <intent-filter>
